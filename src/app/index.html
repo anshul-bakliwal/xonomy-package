@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <script type="text/javascript" src="xonomy.bundle.js"></script>
+    <script type="text/javascript">
+        function start() {
+            var xml = "<list>sdf + YYY<item label='one'/><item label='two'/></list>";
+            var editor = document.getElementById("editor");
+            Xonomy.render(xml, editor, null);
+        }
+    </script>
+</head>
+<body onload="start()">
+<div id="editor"></div>
+</body>
+</html>
